@@ -55,8 +55,9 @@ html {
 }
 
 .navlogo img {
-  height: 35%;
-  max-height: 30px;
+  /* height: 35%; */
+  /* max-height: 30px; */
+  width: clamp(25px, 30vw, 50px);
   margin-right: 5px;
 }
 
