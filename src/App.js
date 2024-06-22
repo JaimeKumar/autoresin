@@ -82,7 +82,7 @@ function App() {
               </div>
             </div>
 
-            <div className="links" style={doAnim? {opacity: 0, animation: 'logo 2s 3s ease forwards'}:{opacity: 1}}>
+            <div className="links" style={doAnim? {opacity: 0, animation: 'logo 2s 2.5s ease forwards'}:{opacity: 1}}>
               <span onClick={()=>{link('about')}}>ABOUT</span>
               <span onClick={() => {link('services')}}>OUR SERVICES</span>
               {/* <span onClick={() => {link('contact')}}>CONTACT US</span> */}
