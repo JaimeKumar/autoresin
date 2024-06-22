@@ -122,6 +122,12 @@ function App() {
                 Join us on a journey where functionality meets artistry.
               </p>
 
+              <p className="hiddenAbout">
+                im here for padding, css is weird <br /> <br />
+                even more needed apparently <br /> <br />
+                third line I dont get it
+              </p>
+
             </div>
             <img src={logo} alt="AutoResin logo" className="bkgLogo" />
           </div>

@@ -5,7 +5,7 @@ import { IoMenuOutline } from "react-icons/io5";
 
 export default function Navbar({ link, page, openSideNav }) {
 
-  var title = page === 'about' ? "about us" : page === "contact" ? "contact us" : page;
+  // var title = page === 'about' ? "about us" : page === "contact" ? "contact us" : page;
     return (
         <div className="navbar">
 
@@ -18,7 +18,7 @@ export default function Navbar({ link, page, openSideNav }) {
               <div className="navline"></div>
               <div className="logoTextCont">
                 <div className="logoText" style={{letterSpacing: '1px'}}>
-                  <span className='auto' style={{marginRight: '2px'}}>{title}</span>
+                  <span className='auto' style={{marginRight: '2px'}}>{page}</span>
                   {/* <span className='resin'>RESIN</span> */}
                 </div>
               </div>

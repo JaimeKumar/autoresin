@@ -286,7 +286,7 @@ html {
   bottom: 0;
   position: absolute;
   left: 0;
-  padding: 50px;
+  padding: clamp(20px, 7vw, 50px);
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -297,6 +297,12 @@ html {
   max-width: 800px;
   text-align: justify;
   font-size: 1.1rem;
+  font-size: clamp(0.9rem, 2vw, 1.08rem);
+}
+
+.hiddenAbout {
+  color: #00000000;
+  opacity: 0;
 }
 
 .servicesCont {
