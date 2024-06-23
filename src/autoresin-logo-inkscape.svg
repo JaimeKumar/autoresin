@@ -8,7 +8,7 @@
    viewBox="0 0 285.75003 285.75001"
    id="svg22"
    sodipodi:docname="autoresin-logo-inkscape.svg"
-   inkscape:export-filename="..\..\..\..\Users\jaime\Documents\autoresin IG\upload 1.png"
+   inkscape:export-filename="..\..\..\..\Users\jaime\Documents\autoresin IG\autoresin ig pp.png"
    inkscape:export-xdpi="95.980003"
    inkscape:export-ydpi="95.980003"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -29,9 +29,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.11313709"
-     inkscape:cx="733.62327"
-     inkscape:cy="119.32427"
+     inkscape:zoom="1.2800001"
+     inkscape:cx="2232.8123"
+     inkscape:cy="-2605.0779"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -103,61 +103,91 @@
        id="tspan16"><tspan
    fill="#c10000"
    id="tspan14">AUTO</tspan>RESIN</tspan></text>
-  <g
-     id="g1"
-     transform="translate(-571.5)">
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke-width:0.627996"
-       id="rect1"
-       width="857.25"
-       height="857.25"
-       x="0"
-       y="-571.5" />
-    <path
-       d="m 157.76513,-196.36367 202.65068,-206.62266 h 338.40521 v 123.84102 h -82.11918 l 82.78304,82.78164 H 657.09919 L 540.54105,-310.9321 H 667.6948 v -58.9397 H 408.0895 l 172.18832,174.172 H 537.23154 L 368.35596,-364.57401 200.80485,-195.6998 Z"
-       fill="#fffff8"
-       id="path12-7"
-       style="stroke-width:3.27025" />
-    <text
-       x="134.53629"
+  <rect
+     style="fill:#000000;fill-opacity:1;stroke-width:0.627996"
+     id="rect1"
+     width="857.25"
+     height="857.25"
+     x="-571.5"
+     y="-571.5" />
+  <path
+     d="m -413.73487,-196.36367 202.65068,-206.62266 h 338.40521 v 123.84102 H 45.20184 l 82.78304,82.78164 H 85.59919 L -30.95895,-310.9321 H 96.1948 v -58.9397 h -259.6053 l 172.18832,174.172 h -43.04628 l -168.87558,-168.87421 -167.55111,168.87421 z"
+     fill="#fffff8"
+     id="path12-7"
+     style="stroke-width:3.27025" />
+  <text
+     x="-436.96371"
+     y="-86.054291"
+     font-family="Pirulen"
+     font-size="74.5471px"
+     letter-spacing="0px"
+     stroke-width="0.388263"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text18-5"><tspan
+       x="-436.96371"
        y="-86.054291"
        font-family="Pirulen"
-       font-size="74.5471px"
-       letter-spacing="0px"
        stroke-width="0.388263"
-       style="line-height:1.25"
-       xml:space="preserve"
-       id="text18-5"><tspan
-         x="134.53629"
-         y="-86.054291"
-         font-family="Pirulen"
-         stroke-width="0.388263"
-         id="tspan16-3"><tspan
-           style="fill:#c10000;fill-opacity:1;stroke-width:0.388263"
-           id="tspan2">AUTO</tspan><tspan
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.388263"
-           id="tspan1">RESIN</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:45.5475px;letter-spacing:7.00043px;fill:#ffffff;fill-opacity:1;stroke-width:0.237227"
-       x="162.58072"
-       y="98.988098"
-       id="text3"><tspan
-         sodipodi:role="line"
-         id="tspan3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.5475px;font-family:Montserrat;-inkscape-font-specification:Montserrat;letter-spacing:7.00043px;fill:#ffffff;fill-opacity:1;stroke-width:0.237227"
-         x="162.58072"
-         y="98.988098">LAUNCHING SOON</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:23.4589px;letter-spacing:1.75011px;fill:#ffffff;fill-opacity:1;stroke-width:0.122182"
-       x="327.44336"
-       y="146.9491"
-       id="text3-4"><tspan
-         sodipodi:role="line"
-         id="tspan3-7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4589px;font-family:Montserrat;-inkscape-font-specification:Montserrat;letter-spacing:1.75011px;fill:#ffffff;fill-opacity:1;stroke-width:0.122182"
-         x="327.44336"
-         y="146.9491">autoresin.co.uk</tspan></text>
-  </g>
+       id="tspan16-3"><tspan
+         style="fill:#c10000;fill-opacity:1;stroke-width:0.388263"
+         id="tspan2">AUTO</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.388263"
+         id="tspan1">RESIN</tspan></tspan></text>
+  <rect
+     style="fill:#000000;fill-opacity:1;stroke-width:0.0620243"
+     id="rect1-9"
+     width="84.666664"
+     height="84.666664"
+     x="595.57709"
+     y="-741.89166"
+     inkscape:export-filename="..\..\..\..\Users\jaime\Documents\autoresin IG\autoresin ig pp.png"
+     inkscape:export-xdpi="95.980003"
+     inkscape:export-ydpi="95.980003" />
+  <path
+     d="m 619.55606,-699.8364 13.37505,-13.63723 h 22.33496 v 8.17359 h -5.41992 l 5.46373,5.46364 h -2.79748 l -7.69291,-7.56159 h 8.39223 v -3.89005 h -17.13411 l 11.36454,11.49546 h -2.8411 l -11.14588,-11.14581 -11.05847,11.14581 z"
+     fill="#fffff8"
+     id="path12-7-5"
+     style="stroke-width:0.215838" />
+  <text
+     x="605.35065"
+     y="-687.94171"
+     font-family="Pirulen"
+     font-size="8.25343px"
+     letter-spacing="0px"
+     stroke-width="0.0429862"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text18-5-3"><tspan
+       x="605.35065"
+       y="-687.94171"
+       font-family="Pirulen"
+       stroke-width="0.0429862"
+       id="tspan16-3-0"><tspan
+         style="fill:#c10000;fill-opacity:1;stroke-width:0.0429862"
+         id="tspan2-8">AUTO</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.0429862"
+         id="tspan1-4">RESIN</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:45.5475px;letter-spacing:7.00043px;fill:#ffffff;fill-opacity:1;stroke-width:0.237227"
+     x="-408.91928"
+     y="98.988098"
+     id="text3"><tspan
+       sodipodi:role="line"
+       id="tspan3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.5475px;font-family:Montserrat;-inkscape-font-specification:Montserrat;letter-spacing:7.00043px;fill:#ffffff;fill-opacity:1;stroke-width:0.237227"
+       x="-408.91928"
+       y="98.988098">LAUNCHING SOON</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:23.4589px;letter-spacing:1.75011px;fill:#ffffff;fill-opacity:1;stroke-width:0.122182"
+     x="-244.05664"
+     y="146.9491"
+     id="text3-4"><tspan
+       sodipodi:role="line"
+       id="tspan3-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4589px;font-family:Montserrat;-inkscape-font-specification:Montserrat;letter-spacing:1.75011px;fill:#ffffff;fill-opacity:1;stroke-width:0.122182"
+       x="-244.05664"
+       y="146.9491">autoresin.co.uk</tspan></text>
 </svg>

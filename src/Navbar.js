@@ -6,6 +6,7 @@ import { IoMenuOutline } from "react-icons/io5";
 export default function Navbar({ link, page, openSideNav }) {
 
   // var title = page === 'about' ? "about us" : page === "contact" ? "contact us" : page;
+  var title = page === 'raffle' ? "giveaway" : page;
     return (
         <div className="navbar">
 
@@ -29,7 +30,7 @@ export default function Navbar({ link, page, openSideNav }) {
               {page !== 'about' ? <span onClick={() => {link('about')}}>ABOUT</span> : null}
               {page !== 'services' ? <span onClick={() => {link('services')}}>SERVICES</span> : null}
               {page !== 'contact' ? <span onClick={() => {link('contact')}}>CONTACT</span>: null}
-              {page !== 'raffle' ? <span onClick={() => {link('raffle')}}>RAFFLE</span> : null}
+              {page !== 'raffle' ? <span onClick={() => {link('raffle')}}>GIVEAWAY</span> : null}
             </div>
         </div>
     )

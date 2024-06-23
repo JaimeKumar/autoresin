@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 function CountdownTimer({ targetDate }) {
+
+  const [formOpen, setFormOpen] = useState(false);
+
   const calculateTimeLeft = () => {
     const difference = +new Date(targetDate) - +new Date();
     let timeLeft = {};
@@ -43,10 +46,15 @@ function CountdownTimer({ targetDate }) {
   });
 
   return (
-    <div className='raffleCount'>
-      <p>WINNER DRAWN IN</p>
-      <p>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</p>
-    </div>
+    formOpen? 
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIvtgQXUf365q88RP5yj1MYYkw4Nd4Hw5MNOtmUMhqkFx1mg/viewform?embedded=true" width="640" height="911" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      :
+      <div className='raffleCount'>
+        <p>WINNER DRAWN IN</p>
+        <p>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</p>
+        <p style={{marginTop: '10px'}}>Up to £25,000 discount</p>
+        <p className="button" onClick={() => {setFormOpen(true)}}>Enter Giveaway</p>
+      </div>
   );
 }
 

@@ -99,6 +99,7 @@ html {
   width: 100vw;
   height: 100vh;
   height: 100svh;
+  height: calc(100svh - 200px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,7 +276,7 @@ html {
   position: absolute;
   opacity: 0.1;
   right: 50px;
-  bottom: 100px;
+  bottom: 0px;
   /* top: 150px; */
   /* width: 50%; */
 }
@@ -283,10 +284,10 @@ html {
 .aboutCont {
   width: 100%;
   height: calc(100% - 100px);
-  bottom: 0;
-  position: absolute;
-  left: 0;
-  padding: clamp(20px, 7vw, 50px);
+  /* bottom: 0; */
+  /* position: absolute; */
+  /* left: 0; */
+  padding: 5px clamp(20px, 7vw, 50px);
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -311,10 +312,11 @@ html {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: calc(100% - 100px);
-  bottom: 30px;
-  position: absolute;
-  padding: clamp(10px, 3vw, 50px);
+  /* height: calc(100% - 100px); */
+  height: 100%;
+  /* bottom: 30px; */
+  /* position: absolute; */
+  padding: 0 clamp(10px, 3vw, 50px);
 }
 
 .serviceBlock {
@@ -447,6 +449,21 @@ a:hover::after {
   color: white;
   padding: 18px 12px;
   font-size: 0.7rem;
+}
+
+.button {
+  color: white;
+  padding: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ffffff88;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff33;
 }
 
 @media only screen and (max-width: 950px) {

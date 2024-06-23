@@ -13,7 +13,7 @@ function App() {
   const [liquify, setLiquify] = useState(false);
   const [sideOpen, setSideOpen] = useState(false);
   const appRef = useRef(null);
-  const targetDate = '2024-06-30T12:00:00';
+  const targetDate = '2024-07-14T20:30:00';
 
   const link = (where) => {
     setDoAnim(false);
@@ -86,7 +86,7 @@ function App() {
               <span onClick={()=>{link('about')}}>ABOUT</span>
               <span onClick={() => {link('services')}}>OUR SERVICES</span>
               {/* <span onClick={() => {link('contact')}}>CONTACT US</span> */}
-              <span onClick={() => {link('raffle')}}>RAFFLE</span>
+              <span onClick={() => {link('raffle')}}>GIVEAWAY</span>
             </div>
 
             {/* <div className="raffleLink" onClick={() => {link('raffle')}} style={doAnim?{opacity: 0, animation: 'logo 2s 4s ease forwards'}:{opacity: 1}}>
