@@ -88,10 +88,6 @@ function App() {
               {/* <span onClick={() => {link('contact')}}>CONTACT US</span> */}
               <span onClick={() => {link('raffle')}}>GIVEAWAY</span>
             </div>
-
-            {/* <div className="raffleLink" onClick={() => {link('raffle')}} style={doAnim?{opacity: 0, animation: 'logo 2s 4s ease forwards'}:{opacity: 1}}>
-              launch raffle
-            </div> */}
           </div>
         : 
         page === 'raffle' ?
@@ -121,7 +117,7 @@ function App() {
               <p>
                 Join us on a journey where functionality meets artistry.
               </p>
-              
+
             </div>
             <img src={logo} alt="AutoResin logo" className="bkgLogo" />
           </div>
@@ -197,7 +193,7 @@ function App() {
         <p onClick={() => {openSideNav(); link("about")}}>ABOUT</p>
         <p onClick={() => {openSideNav(); link("services")}}>SERVICES</p>
         <p onClick={() => {openSideNav(); link("contact")}}>CONTACT</p>
-        <p onClick={() => {openSideNav(); link("raffle")}}>RAFFLE</p>
+        <p onClick={() => {openSideNav(); link("raffle")}}>GIVEAWAY</p>
       </div>
 
       {page !== 'home' ? <Navbar link={link} page={page} openSideNav={openSideNav} /> : null}

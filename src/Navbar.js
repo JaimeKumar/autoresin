@@ -19,7 +19,7 @@ export default function Navbar({ link, page, openSideNav }) {
               <div className="navline"></div>
               <div className="logoTextCont">
                 <div className="logoText" style={{letterSpacing: '1px'}}>
-                  <span className='auto' style={{marginRight: '2px'}}>{page}</span>
+                  <span className='auto' style={{marginRight: '2px'}}>{title}</span>
                   {/* <span className='resin'>RESIN</span> */}
                 </div>
               </div>
