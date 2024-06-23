@@ -235,6 +235,10 @@ html {
   width: 100%;
 }
 
+.iframe p {
+  color: white;
+}
+
 .raffleLink {
   /* font-weight: bold; */
   cursor: pointer;
@@ -487,8 +491,6 @@ a:hover::after {
 
   .page {
     overflow-y: auto;
-    height: auto;
-    min-height: 100svh;
   }
 
   .servLine {

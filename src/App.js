@@ -121,13 +121,7 @@ function App() {
               <p>
                 Join us on a journey where functionality meets artistry.
               </p>
-
-              <p className="hiddenAbout">
-                im here for padding, css is weird <br /> <br />
-                even more needed apparently <br /> <br />
-                third line I dont get it
-              </p>
-
+              
             </div>
             <img src={logo} alt="AutoResin logo" className="bkgLogo" />
           </div>
@@ -172,26 +166,7 @@ function App() {
                 <p>Hex Lighting</p>
                 <p>Interior Paint</p>
               </div>
-
-              <div className="serviceBlock" id="extraBlock">
-                <h1>hello</h1>
-              </div>
-            </div>
-            {/* 
-                  <ul>
-                    <li>Bespoke Shell Build</li>
-                    <li>Bespoke Decor</li>
-                    <li>Bespoke Floor</li>
-                  </ul>
-                  <ul>
-                    <li>CCTV & Security</li>
-                    <li>Hex Lighting</li>
-                    <li>Interior Paint</li>
-                  </ul>
-                </div>
-              </div>
-            </div> */}
-            
+            </div>           
           </div>
         :
         page === 'contact' ?

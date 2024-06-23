@@ -47,7 +47,7 @@ function CountdownTimer({ targetDate }) {
 
   return (
     formOpen? 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIvtgQXUf365q88RP5yj1MYYkw4Nd4Hw5MNOtmUMhqkFx1mg/viewform?embedded=true" width="640" height="911" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIvtgQXUf365q88RP5yj1MYYkw4Nd4Hw5MNOtmUMhqkFx1mg/viewform?embedded=true" width="95%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0"><p>Loading…</p></iframe>
       :
       <div className='raffleCount'>
         <p>WINNER DRAWN IN</p>
