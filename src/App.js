@@ -85,8 +85,8 @@ function App() {
             <div className="links" style={doAnim? {opacity: 0, animation: 'logo 2s 2.5s ease forwards'}:{opacity: 1}}>
               <span onClick={()=>{link('about')}}>ABOUT</span>
               <span onClick={() => {link('services')}}>OUR SERVICES</span>
-              {/* <span onClick={() => {link('contact')}}>CONTACT US</span> */}
-              <span onClick={() => {link('raffle')}}>GIVEAWAY</span>
+              <span onClick={() => {link('contact')}}>CONTACT US</span> 
+              {/* <span onClick={() => {link('raffle')}}>GIVEAWAY</span> */}
             </div>
           </div>
         : 
@@ -193,7 +193,7 @@ function App() {
         <p onClick={() => {openSideNav(); link("about")}}>ABOUT</p>
         <p onClick={() => {openSideNav(); link("services")}}>SERVICES</p>
         <p onClick={() => {openSideNav(); link("contact")}}>CONTACT</p>
-        <p onClick={() => {openSideNav(); link("raffle")}}>GIVEAWAY</p>
+        {/* <p onClick={() => {openSideNav(); link("raffle")}}>GIVEAWAY</p> */}
       </div>
 
       {page !== 'home' ? <Navbar link={link} page={page} openSideNav={openSideNav} /> : null}
